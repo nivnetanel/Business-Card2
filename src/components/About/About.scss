@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  text-align: left;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  :first-child {
+    margin-top: 40px;
+  }
+
+  article {
+    margin: 0 auto;
+    width: 35%;
+
+    a {
+      color: #54697a;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    article {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    article {
+      margin: 0 auto;
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    h2 {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.bla {
+  height: 50px;
+  position: fixed;
+  right: 11px;
+  bottom: 39px;
+  z-index: 999999;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #959da533 0px 8px 24px;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

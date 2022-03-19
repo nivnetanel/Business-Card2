@@ -1,0 +1,86 @@
+.navbar {
+  background: #dc3545;
+  width: -webkit-fill-available;
+  position: fixed;
+  z-index: 2;
+
+  .container-fluid {
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+    font-size: 1.3rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1.3rem;
+  }
+
+  .navbar-item {
+    font-size: 1.3rem;
+    margin: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #2c3b4e;
+    }
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .navbar {
+    .navbar-brand {
+      font-size: 1.7rem;
+    }
+
+    .navbar-toggler-icon {
+      font-size: 1.3rem;
+    }
+
+    .container-fluid {
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    .navbar-toggler-icon {
+      font-size: 1.1rem;
+    }
+    .container-fluid {
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .navbar {
+    .navbar-brand {
+      font-size: 1.3rem;
+    }
+    .navbar-toggler-icon {
+      font-size: 1.1rem;
+    }
+    .container-fluid {
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.footer {
+  background-color: #0d232d;
+
+  h2 {
+    color: white;
+    margin: 0;
+    font-size: 2.5rem;
+    position: relative;
+    top: 20px;
+  }
+
+  .divider {
+    transform: rotate(90deg);
+    width: 128px;
+    border-radius: 6px;
+    left: 77px;
+    position: relative;
+    color: white;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .form-buttons {
+      button {
+        width: 95px;
+      }
+      text-align: left;
+      margin-top: 14px;
+      :first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .divider {
+    display: none;
+  }
+
+  .footer-wrapper {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-wrapper {
+    flex-direction: column-reverse;
+  }
+}

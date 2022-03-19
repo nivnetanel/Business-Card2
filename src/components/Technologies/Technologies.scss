@@ -1,0 +1,32 @@
+.technologies {
+  h2 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+  }
+
+  .technologies-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.circular-img {
+  display: inline-block;
+  padding: 2px;
+  border-radius: 50%;
+  background: black;
+  height: 130px;
+  width: 130px;
+}
+.circular-img img {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+/*for mobile view
+@media only screen and (max-width: 640px) {
+.circular-image{
+        border-radius:50%;
+}*/

@@ -1,0 +1,73 @@
+.social-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  width: 53%;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.social-media-button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 87px;
+  transition: background-color 0.2s;
+
+  &.linkedin {
+    $linkedinColor: #0a66c2;
+    background-color: $linkedinColor;
+    &:hover {
+      background-color: darken($color: $linkedinColor, $amount: 5%);
+    }
+  }
+  &.whatsapp {
+    $whatsappColor: #52ce5f;
+    background-color: $whatsappColor;
+    &:hover {
+      background-color: darken($color: $whatsappColor, $amount: 5%);
+    }
+  }
+  &.twitter {
+    $twitterColor: #1d9bf0;
+    background-color: $twitterColor;
+    &:hover {
+      background-color: darken($color: $twitterColor, $amount: 5%);
+    }
+  }
+  &.medium {
+    $mediumColor: #0f0f0f;
+    background-color: $mediumColor;
+    &:hover {
+      background-color: darken($color: $mediumColor, $amount: 5%);
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .social-wrapper {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 15px;
+    margin-top: 15px;
+    width: 66%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .social-wrapper {
+    width: 75%;
+  }
+}
