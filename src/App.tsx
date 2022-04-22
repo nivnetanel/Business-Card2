@@ -1,16 +1,14 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
 
-import Navbar from './components/Navbar/Navbar';
-import About from './components/About/About';
-import Hero from './components/Hero/Hero';
-import Line from './sheard/components/line';
-import Technologies from './components/Technologies/Technologies';
-import Testimonials from './components/Testimonials/Testimonials';
-import ScrollTopButton from './sheard/components/ScrollTopButton/ScrollTopButton';
-import Footer from './components/Footer/Footer';
-
-
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+import Line from "./sheard/components/line";
+import Technologies from "./components/Technologies/Technologies";
+import Testimonials from "./components/Testimonials/Testimonials";
+import ScrollTopButton from "./sheard/components/ScrollTopButton/ScrollTopButton";
+import Footer from "./components/Footer/Footer";
 
 const App: React.FC = () => {
   return (
@@ -26,6 +24,6 @@ const App: React.FC = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

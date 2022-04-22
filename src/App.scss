@@ -4,21 +4,19 @@
   box-sizing: border-box;
 }
 
-
 ::-webkit-scrollbar {
   width: 10px;
 }
-  ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
-  ::-webkit-scrollbar-thumb {
-  background: #888; 
-    border-radius:10px;
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  
-  background: #555; 
-} 
+  background: #555;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -27,6 +25,6 @@ body {
   text-align: center;
 }
 
-h2{
+h2 {
   color: #4f4f4f;
 }

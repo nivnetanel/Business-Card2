@@ -1,6 +1,7 @@
 .about {
   display: flex;
-  align-items: baseline;
+  text-align: -webkit-match-parent;
+
   justify-content: space-evenly;
   text-align: left;
 
@@ -26,6 +27,8 @@
   .about {
     flex-direction: column;
     justify-content: center;
+    text-align: -webkit-match-parent;
+
     align-items: center;
 
     article {

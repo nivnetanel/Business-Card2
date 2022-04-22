@@ -1,12 +1,9 @@
 const aboutUiString = {
-  SO_WHO_AM_I: "?מי אנחנו",
+  SO_WHO_AM_I: "מאות לקוחות לא טועים ובוחרים בשירות שלנו!",
   SO_WHO_AM_I_DESCRIPTION:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non anim id est laborum.",
-
-  WHY_WORKING_WITH_ME: `עוברים דירה? הגעתם למקום הנכון!`,
-  WHY_WORKING_WITH_ME_DESCRIPTION: `נימני הובלות מציעים לכם שירותי הובלה בכל רחבי הארץ, הובלת בתים, משרדים ופריטים בודדים.
-שירות מקצועי ויחס אדיב, אישי ואכפתי, תוך התחשבות בכל צרכי הלקוח.
-מבטיחים לכם שירות איכותי, אמין ומהיר במחירים הוגנים.`,
+    "נימני הובלות הינה חברת הובלות המספקת שירותי הובלה בפריסה ארצית מזה כ-7 שנים. את ההובלות, שירותי המנוף, שירותי האריזה והאחסון שאנו מבצעים, אנחנו מלווים במקצועיות רבה וידע רב. ",
+  WHY_WORKING_WITH_ME: `אחריות`,
+  WHY_WORKING_WITH_ME_DESCRIPTION: `אנו מבינים את רגישותכם לחפצים האישיים שלכם, לכן, נימני הובלות מספקת שירות ביטוח. נבטח את כל תכולת ביתכם עד לסך של 10,000 ש"ח. למעט דברי אומנות, זכוכית, דברי ערך, תכשיטים, מסכי LED, LCD ופלזמה.`,
 };
 
 export default aboutUiString;

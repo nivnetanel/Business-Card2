@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
+import logo from "../../assets/images/nimni logo.png";
 
 const NavBar: React.FC = () => {
   const [collapseClass, setCollapseClass] = useState<string>(
@@ -22,7 +23,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className={`navbar px-5 navbar-expand-lg navbar-dark`}>
       <div className="container-fluid">
-        <h1 className={`navbar-brand`}>נימני הובלות</h1>
+        <img src={logo} className="logo-img" />
         <button
           onClick={() => toggleNavigationIcon()}
           className="navbar-toggler"

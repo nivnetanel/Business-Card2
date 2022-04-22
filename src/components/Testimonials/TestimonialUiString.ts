@@ -1,5 +1,5 @@
 const testimonialsUiString = {
-  SOME_OF_MY_LOVELY_CUSTOMERS: `Some of my lovely customers.`,
+  SOME_OF_MY_LOVELY_CUSTOMERS: `ביקורות`,
 
   CLIENT_ONE: {
     NAME: `Nevaeh`,

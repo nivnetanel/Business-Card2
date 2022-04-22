@@ -15,7 +15,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="linkedin icon link"
               design="social-media-button linkedin"
-              link=""
+              link="#"
               icon={<FaLinkedinIn />}
             />
 
@@ -23,7 +23,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="Whatsapp icon link"
               design="social-media-button whatsapp"
-              link=""
+              link="#"
               icon={<FaWhatsapp />}
             />
 
@@ -31,7 +31,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="twitter icon link"
               design="social-media-button twitter"
-              link=""
+              link="#"
               icon={<FaTwitter />}
             />
 
@@ -39,7 +39,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="medium icon link"
               design="social-media-button medium"
-              link=""
+              link="#"
               icon={<SiMedium />}
             />
           </IconContext.Provider>
@@ -51,7 +51,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="linkedin icon link"
               design="social-media-button linkedin"
-              link=""
+              link="#"
               icon={<FaLinkedinIn />}
             />
 
@@ -59,7 +59,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="Whatsapp icon link"
               design="social-media-button whatsapp"
-              link=""
+              link="#"
               icon={<FaWhatsapp />}
             />
 
@@ -67,7 +67,7 @@ const SocialConnection: React.FC = () => {
             <Bubble
               ariaLabel="twitter icon link"
               design="social-media-button twitter"
-              link=""
+              link="#"
               icon={<FaTwitter />}
             />
 

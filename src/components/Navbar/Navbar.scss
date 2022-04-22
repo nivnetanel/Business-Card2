@@ -1,8 +1,8 @@
 .navbar {
-  background: #dc3545;
-  width: -webkit-fill-available;
-  position: fixed;
+  background: whitesmoke;
   z-index: 2;
+  margin: 0px auto;
+  opacity: 90%;
 
   .container-fluid {
     justify-content: center;
@@ -11,6 +11,8 @@
   .navbar-brand {
     font-size: 1.7rem;
     font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif, "Lucida Sans Unicode", Geneva,
+      Verdana, sans-serif;
   }
 
   .navbar-toggler:focus {
@@ -27,16 +29,19 @@
   .navbar-toggler-icon {
     font-size: 1.3rem;
   }
+  .logo-img {
+    width: 160px;
+  }
 
   .navbar-item {
     font-size: 1.3rem;
     margin: 0 8px;
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition: color 0.3s;
 
     &:hover {
-      color: #2c3b4e;
+      color: blue;
     }
   }
 }
