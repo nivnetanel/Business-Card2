@@ -1,9 +1,9 @@
 // * Imports
 import React from "react";
-import Technology from "./Bubble";
+import Customers from "./Bubble";
 
 // * Style
-import "./Technologies.scss";
+import "./Customers.scss";
 
 // Logo
 import logo1 from "../../assets/images/logo (1).jpg";
@@ -12,9 +12,9 @@ import logo3 from "../../assets/images/logo (3).jpg";
 import logo5 from "../../assets/images/logo (5).jpg";
 import logo6 from "../../assets/images/logo (6).jpg";
 
-const Technologies: React.FC = () => {
+const Customer: React.FC = () => {
   return (
-    <div id="technologies" data-aos="fade-up" className="technologies">
+    <div id="customers" data-aos="fade-up" className="customers">
       <h2>הלקוחות שלנו</h2>
 
       <img src={logo1} className="circular-img" />
@@ -26,4 +26,4 @@ const Technologies: React.FC = () => {
   );
 };
 
-export default Technologies;
+export default Customer;

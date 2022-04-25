@@ -51,7 +51,7 @@ const NavBar: React.FC = () => {
               <a
                 onClick={() => onNavbarItemClick()}
                 className="navbar-item"
-                href="#technologies"
+                href="#customers"
               >
                 Customers
               </a>
